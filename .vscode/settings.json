@@ -25,7 +25,7 @@
 	"CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
 	"CRS.FileNamePatternPageCustomizations": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
 	"CRS.RenameWithGit": true,
-	"CRS.ObjectNamePrefix": "DEMO",
+	"CRS.ObjectNamePrefix": "JURE",
 	"CRS.ObjectNameSuffix": "",
 	"CRS.RemovePrefixFromFilename": true,
 	"alOutline.completionProviders": [

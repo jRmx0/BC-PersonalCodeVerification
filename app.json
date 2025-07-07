@@ -1,7 +1,7 @@
 {
   "id": "d15dfcea-d2af-4064-abb5-497b09f3dfcf",
-  "name": "SetupDemo",
-  "publisher": "Demo",
+  "name": "AsmensKoduPatikra",
+  "publisher": "JustasRemeikis",
   "version": "1.0.0.0",
   "brief": "",
   "description": "",
@@ -16,8 +16,8 @@
   "application": "26.0.0.0",
   "idRanges": [
     {
-      "from": 50100,
-      "to": 50149
+      "from": 62000,
+      "to": 62999
     }
   ],
   "resourceExposurePolicy": {
