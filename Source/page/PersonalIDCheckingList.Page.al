@@ -14,7 +14,7 @@ page 62400 "JUREPersonal ID Checking List"
         {
             repeater(General)
             {
-                field(Code; Rec."No.")
+                field("No."; Rec."No.")
                 {
                     ApplicationArea = All;
                     ToolTip = 'Specifies the number of the check atempt.';

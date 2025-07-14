@@ -16,7 +16,7 @@ page 62402 "JURE Personal ID View Card"
                 field("No."; Rec."No.")
                 {
                     ApplicationArea = All;
-                    Caption = 'Code';
+                    Caption = 'No.';
                     Editable = false;
                     ToolTip = 'Auto generated unique record code.';
                 }

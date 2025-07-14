@@ -15,7 +15,7 @@ page 62401 "JURE Personal ID Checking Card"
                 field("No."; GeneratedCode)
                 {
                     ApplicationArea = All;
-                    Caption = 'Code';
+                    Caption = 'No.';
                     Editable = false;
                     ToolTip = 'Auto generated unique record code.';
                 }
@@ -64,6 +64,11 @@ page 62401 "JURE Personal ID Checking Card"
                 var
                     PersonalIDChecking: Record "JURE Personal ID Checking";
                 begin
+                    if GeneratedCode = '' then begin
+                        Message('Cannot save empty record.');
+                        exit;
+                    end;
+
                     PersonalIDChecking.Init();
                     PersonalIDChecking."No." := GeneratedCode;
                     PersonalIDChecking."Personal ID" := PersonalID;
